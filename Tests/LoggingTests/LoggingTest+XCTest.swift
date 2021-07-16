@@ -39,6 +39,8 @@ extension LoggingTest {
             ("testCustomFactory", testCustomFactory),
             ("testAllLogLevelsExceptCriticalCanBeBlocked", testAllLogLevelsExceptCriticalCanBeBlocked),
             ("testAllLogLevelsWork", testAllLogLevelsWork),
+            ("testAllLogLevelByFunctionRefWithSource", testAllLogLevelByFunctionRefWithSource),
+            ("testAllLogLevelByFunctionRefWithoutSource", testAllLogLevelByFunctionRefWithoutSource),
             ("testLogMessageWithStringInterpolation", testLogMessageWithStringInterpolation),
             ("testLoggingAString", testLoggingAString),
             ("testMultiplexerIsValue", testMultiplexerIsValue),
@@ -48,6 +50,7 @@ extension LoggingTest {
             ("testStreamLogHandlerWritesToAStream", testStreamLogHandlerWritesToAStream),
             ("testStreamLogHandlerOutputFormat", testStreamLogHandlerOutputFormat),
             ("testStreamLogHandlerOutputFormatWithMetaData", testStreamLogHandlerOutputFormatWithMetaData),
+            ("testStreamLogHandlerOutputFormatWithOrderedMetadata", testStreamLogHandlerOutputFormatWithOrderedMetadata),
             ("testStdioOutputStreamFlush", testStdioOutputStreamFlush),
             ("testOverloadingError", testOverloadingError),
         ]
